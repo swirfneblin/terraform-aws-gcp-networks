@@ -8,19 +8,9 @@ multi-cloud VPN setup.
 
 ## Quick Start
 
-### Download project
-
-```
-curl -O https://storage.googleapis.com/bootcamp-gcp-public/hands-on-tcb-bmc-gcp.zip
-unzip hands-on-tcb-bmc-gcp.zip
-rm hands-on-tcb-bmc-gcp.zip
-cd hands-on-tcb-bmc-gcp
-chmod +x \*.sh
-```
-
 ### Set vars on clouds GCP e AWS
 
-The requirements to set those credentials are create keys on GCP and AWS, so saving on respective files
+The requirements to set those credentials are create security ssh keys on GCP and AWS, so saving then on respective files
 
 ```
 ./gcp_set_credentials.sh gcp-serviceaccount-key.json
