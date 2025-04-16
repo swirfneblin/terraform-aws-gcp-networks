@@ -1,0 +1,12 @@
+*.json
+*.csv
+terraform.tfvars
+
+.terraform
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+terraform.tfstate
+terraform.tfstate.backup
+/images
+
+.DS_Store
